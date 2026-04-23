@@ -259,7 +259,6 @@ function drawMenu() {
     if (!MainMenu) return;
 
     const rect = canvas.getBoundingClientRect();
-
     const mouseX = e.clientX - rect.left;
     const mouseY = e.clientY - rect.top;
 
@@ -269,8 +268,14 @@ function drawMenu() {
         mouseY >= button.y &&
         mouseY <= button.y + button.height
     ) {
+        console.log("Peli alkaa ja musiikki käynnistyy!");
+        
+        // KÄYNNISTÄ MUSIIKKI TÄSSÄ!
+        if (typeof playTrack === 'function') {
+            playTrack(0);
+        }
+
         MainMenu = false;
     }
-    
 });
 }
