@@ -176,14 +176,14 @@ class Player {
         // --- PARTS ---
 
         this.torso = new Image();
-        this.torso.src = "Images/Dinosaur/Torso.png";
+        this.torso.src = "./Images/Dinosaur/Torso.png";
         this.torso.point = { x: 0, y: 0 };
         this.torso.rotation = 0;
         this.torso.scale = 1;
         this.torso.offset = { x: 0, y: 0 };
 
         this.head1 = new Image();
-        this.head1.src = "Images/Dinosaur/Head1.png";
+        this.head1.src = "./Images/Dinosaur/Head1.png";
         this.head1.point = { x: 0, y: 40 };
         this.head1.rotation = 0;
         this.head1.scale = 1;
@@ -197,42 +197,42 @@ class Player {
         }
 
         this.head2 = new Image();
-        this.head2.src = "Images/Dinosaur/Head2.png";
+        this.head2.src = "./Images/Dinosaur/Head2.png";
         this.head2.point = { x: 0, y: 0 };
         this.head2.rotation = 0;
         this.head2.scale = 1;
         this.head2.offset = { x: 60, y: 25 };
 
         this.hand1  = new Image();
-        this.hand1.src = "Images/Dinosaur/Hand1.png";
+        this.hand1.src = "./Images/Dinosaur/Hand1.png";
         this.hand1.point = { x: 0, y: 0 };
         this.hand1.rotation = 0;
         this.hand1.scale = 1;
         this.hand1.offset = { x: 10, y: 15 };
 
         this.hand2 = new Image();
-        this.hand2.src = "Images/Dinosaur/Hand2.png";
+        this.hand2.src = "./Images/Dinosaur/Hand2.png";
         this.hand2.point = { x: 0, y: 0 };
         this.hand2.rotation = 0;
         this.hand2.scale = 1;
         this.hand2.offset = { x: 60, y: 70 };
 
         this.leg1 = new Image();
-        this.leg1.src = "Images/Dinosaur/Leg1.png";
+        this.leg1.src = "./Images/Dinosaur/Leg1.png";
         this.leg1.point = { x: 60, y: 40 };
         this.leg1.rotation = 0;
         this.leg1.scale = 1;
         this.leg1.offset = { x: -37.5, y: 10 };
 
         this.leg2 = new Image();
-        this.leg2.src = "Images/Dinosaur/Leg2.png";
+        this.leg2.src = "./Images/Dinosaur/Leg2.png";
         this.leg2.point = { x: 20, y: 0 };
         this.leg2.rotation = 0;
         this.leg2.scale = 1;
         this.leg2.offset = { x: 30, y: 70 };
 
         this.shotgun = new Image();
-        this.shotgun.src = "Images/Shotgun.png";
+        this.shotgun.src = "./Images/Shotgun.png";
         this.shotgun.point = { x: 50, y: 7.5 };
         this.shotgun.rotation = 0;
         this.shotgun.scale = 1;
@@ -242,15 +242,15 @@ class Player {
 
         // --- sounds ---
 
-        this.shootAudio = new Audio("Audio/shotgun_shot.wav")
-        this.reloadAudio = new Audio("Audio/shotgun_reload.wav")
-        this.biteof87 = new Audio("Audio/Bite.wav")
+        this.shootAudio = new Audio("./Audio/shotgun_shot.wav")
+        this.reloadAudio = new Audio("./Audio/shotgun_reload.wav")
+        this.biteof87 = new Audio("./Audio/Bite.wav")
 
-        this.slamboom = new Audio("Audio/Explosion.wav");
+        this.slamboom = new Audio("./Audio/Explosion.wav");
         this.slamboom.preload = "auto";
         
 
-        this.deathAudio = new Audio("Audio/Player.death.wav")
+        this.deathAudio = new Audio("./Audio/Player.death.wav")
 
         
         this.alive = true;
