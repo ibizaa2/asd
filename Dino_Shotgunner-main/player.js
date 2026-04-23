@@ -242,8 +242,8 @@ class Player {
 
         // --- sounds ---
 
-        this.shootAudio = new Audio("./Audio/shotgun_shot.wav")
-        this.reloadAudio = new Audio("./Audio/shotgun_reload.wav")
+        this.shootAudio = new Audio("./Audio/Shotgun_shot.wav")
+        this.reloadAudio = new Audio("./Audio/Shotgun_reload.wav")
         this.biteof87 = new Audio("./Audio/Bite.wav")
 
         this.slamboom = new Audio("./Audio/Explosion.wav");
