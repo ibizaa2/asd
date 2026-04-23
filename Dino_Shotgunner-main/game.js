@@ -58,9 +58,18 @@ function playTrack(index) {
 
 const startButton = document.getElementById("startButton"); 
 
-startButton.addEventListener("click", () => {
-playTrack(0)
-})
+
+if (startButton) {
+    startButton.addEventListener("click", () => {
+        if (MainMenu) {
+            playTrack(0);
+            MainMenu = false;
+            startButton.style.display = "none";
+        }
+    });
+}
+
+
 
 const upgradeMenu = new UpgradeMenu(player);
 
