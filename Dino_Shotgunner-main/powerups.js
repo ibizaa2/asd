@@ -10,12 +10,12 @@ const powerupimages = {
     
 }
 
-powerupimages.shroom.src = ".Images/Shroom.png"
+powerupimages.shroom.src = "./Images/Shroom.png"
 powerupimages.creditcard.src = "./Images/Credit%20card.png"
-powerupimages.bolt.src = ".Images/Bolt.png"
-powerupimages.lemon.src = ".Images/Lemon.png"
-powerupimages.food.src = ".Images/Food.png"
-powerupimages.shotgunshell.src = "Images/Shotgun.Shell.png"
+powerupimages.bolt.src = "./Images/Bolt.png"
+powerupimages.lemon.src = "./Images/Lemon.png"
+powerupimages.food.src = "./Images/Food.png"
+powerupimages.shotgunshell.src = "./Images/Shotgun.Shell.png"
 
 class Powerups {
 
