@@ -56,6 +56,8 @@ function playTrack(index) {
     }
 }
 
+const startButton = document.getElementById("startButton"); 
+
 startButton.addEventListener("click", () => {
 playTrack(0)
 })
