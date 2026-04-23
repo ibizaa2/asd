@@ -45,7 +45,7 @@ class Bird {
         this.damage = 5;
 
         this.img = new Image();
-        this.img.src = "Images/Bird.png";
+        this.img.src = ".Images/Bird.png";
 
         this.img.onload = () => {
             this.width = this.img.width * this.scale;
