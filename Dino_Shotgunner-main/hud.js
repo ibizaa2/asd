@@ -21,7 +21,7 @@ class HUD {
         this.upgradesImage = new Image();
         this.upgradesImage.src = './Images/upgrades.png';
     }
-    }
+    
 
     draw(ctx){
 
