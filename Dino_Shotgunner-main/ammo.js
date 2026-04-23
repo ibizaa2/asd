@@ -36,7 +36,7 @@ class Ammo {
             this.height = this.radius * 2;
             
             this.explosion = new Image()
-            this.explosion.src = "Images/Explosion.png"
+            this.explosion.src = ".Images/Explosion.png"
         }
 
         if (this.type === "projectile") {
