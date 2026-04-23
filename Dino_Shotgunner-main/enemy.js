@@ -106,7 +106,7 @@ class Bird {
         if (this.alive) {
             ctx.drawImage(this.img, this.x - cameraX, this.y, this.width, this.height);
         } else {
-            const death = new Audio("Audio/Bird.death.wav")
+            const death = new Audio("./Audio/Bird.death.wav")
             death.play()
 
             if (!this.LootDropped) {
@@ -191,7 +191,7 @@ draw(ctx, cameraX) {
         ctx.drawImage(this.img, this.x - cameraX, this.y, this.width, this.height);
     } else {
 
-        const death = new Audio("Audio/cactus.death.wav")
+        const death = new Audio("./Audio/cactus.death.wav")
         death.currentTime = 0.5
         death.play()
 
@@ -337,7 +337,7 @@ explode(startX, startY) {
                 needle.isActive = false;
 
                 const hitSound = new Audio()
-                hitSound.src = "Audio/Cactus.hit.wav"
+                hitSound.src = "./Audio/Cactus.hit.wav"
                 hitSound.currentTime = 0
                 hitSound.play()
   
