@@ -8,10 +8,10 @@ class World {
 
         // Grafiikka
         this.ground = new Image();
-        this.ground.src = ".Images/Sand.png";
+        this.ground.src = "./Images/Sand.png";
         
         this.ground2 = new Image() // koriste maahan
-        this.ground2.src = ".Images/Sand2.png"
+        this.ground2.src = "./Images/Sand2.png"
 
         this.tileWidth = 256;
 
