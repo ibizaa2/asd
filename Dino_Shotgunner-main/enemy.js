@@ -159,7 +159,7 @@ class Cactus {
         this.x = x; 
         this.scale = 0.50; 
         this.img = new Image();
-        this.img.src = "Images/Cactus.png";
+        this.img.src = "./Images/Cactus.png";
 
            this.img.onload = () => {
             this.width = this.img.width * this.scale;
