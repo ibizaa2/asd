@@ -141,13 +141,13 @@ class Cactus {
         this.needleScale = 2;
         this.needles = []
         this.needlesImg = new Image();
-        this.needlesImg.src = "./Images/Needle projectile.png"
+        this.needlesImg.src = "./Images/Needle%20projectile.png"
 
         this.grenadeboom = new Audio();
         this.grenadeboom.src = "./Audio/Grenade.Boom.wav"
 
         this.grenadeImg = new Image()
-        this.grenadeImg.src = "./Images/Cactus grenade.png"
+        this.grenadeImg.src = "./Images/Cactus%20grenade.png"
 
        this.launchgrenade = false;
 
