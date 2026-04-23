@@ -106,7 +106,7 @@ class Bird {
         if (this.alive) {
             ctx.drawImage(this.img, this.x - cameraX, this.y, this.width, this.height);
         } else {
-            const death = new Audio("Audio/bird.death.wav")
+            const death = new Audio("Audio/Bird.death.wav")
             death.play()
 
             if (!this.LootDropped) {
