@@ -212,7 +212,7 @@ for (let i = 0; i < 10000; i++) {
 }
 
 const MenuImage = new Image();
-MenuImage.src = "Images/Menu.png";
+MenuImage.src = "./Images/Menu.png";
 
 MenuImage.onload = () => {
     gameLoop()
