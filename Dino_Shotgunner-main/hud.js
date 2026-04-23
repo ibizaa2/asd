@@ -4,22 +4,23 @@ class HUD {
 
       
         this.hpImage = new Image();
-        this.hpImage.src = 'Images/hp.png';
+        this.hpImage.src = './Images/hp.png';
 
         this.hungerImage = new Image();
-        this.hungerImage.src = 'Images/hunger.png';
+        this.hungerImage.src = './Images/hunger.png';
 
         this.ammoImage = new Image();
-        this.ammoImage.src = 'Images/ammo.png';
+        this.ammoImage.src = './Images/ammo.png';
 
         this.needlesImage = new Image();
-        this.needlesImage.src = 'Images/needles.png';
+        this.needlesImage.src = './Images/needles.png';
 
         this.saturationImage = new Image();
-        this.saturationImage.src = 'Images/saturation.png';
+        this.saturationImage.src = './Images/saturation.png';
 
         this.upgradesImage = new Image();
-        this.upgradesImage.src = 'Images/upgrades.png';
+        this.upgradesImage.src = './Images/upgrades.png';
+    }
     }
 
     draw(ctx){
