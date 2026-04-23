@@ -11,7 +11,7 @@ const powerupimages = {
 }
 
 powerupimages.shroom.src = "Images/Shroom.png"
-powerupimages.creditcard.src = "Images/Credit card.png"
+powerupimages.creditcard.src = "Images/Credit%20card.png"
 powerupimages.bolt.src = "Images/Bolt.png"
 powerupimages.lemon.src = "Images/Lemon.png"
 powerupimages.food.src = "Images/Food.png"
