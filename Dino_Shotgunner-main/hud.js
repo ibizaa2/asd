@@ -24,6 +24,7 @@ class HUD {
     
 
     draw(ctx){
+        if (!this.hpImage.complete || this.hpImage.naturalWidth === 0) return;
 
         const width = ctx.canvas.width;
         const rightcorner = width - 70;
