@@ -5,8 +5,8 @@ const images = {
     
 }
 
-images.flesh.src = ".Images/Flesh.png"
-images.cactusFlesh.src = ".Images/Cactus.flesh.png"
+images.flesh.src = "./Images/Flesh.png"
+images.cactusFlesh.src = "./Images/Cactus.flesh.png"
 
 
 class Drops {
