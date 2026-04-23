@@ -19,18 +19,18 @@ const deathaudio = new Audio("./Audio/Player.death.wav")
 
 // music
 const themes = [
-    new Audio("./Audio/banger.wav"),
-    new Audio("./Audio/pablo.wav"),
-    new Audio("./Audio/mii.wav"),
+    new Audio("./Audio/Banger.wav"),
+    new Audio("./Audio/Pablo.wav"),
+    new Audio("./Audio/Mii.wav"),
     new Audio("./Audio/Npc%20music.wav"),
-    new Audio("./Audio/france.wav"),
-    new Audio("./Audio/arse.wav"),
-    new Audio("./Audio/feddy.wav"),
-    new Audio("./Audio/sunshine.wav"),
-    new Audio("./Audio/shrek.wav"),
-    new Audio("./Audio/moonshine.wav"),
-    new Audio("./Audio/piracy.wav"),
-    new Audio("./Audio/slander.wav"),
+    new Audio("./Audio/France.wav"),
+    new Audio("./Audio/Arse.wav"),
+    new Audio("./Audio/Feddy.wav"),
+    new Audio("./Audio/Sunshine.wav"),
+    new Audio("./Audio/Shrek.wav"),
+    new Audio("./Audio/Moonshine.wav"),
+    new Audio("./Audio/Piracy.wav"),
+    new Audio("./Audio/Slander.wav"),
 ]
 
 const audioCtx = new AudioContext()
